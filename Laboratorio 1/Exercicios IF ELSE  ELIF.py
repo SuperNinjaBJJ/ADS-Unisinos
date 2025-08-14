@@ -144,12 +144,14 @@ else:
 grauA = float(input("Digite sua nota total do Grau A: "))
 grauB = float(input("Digite sua nota total do Grau B: "))
 
-if grauA <0 or grauB <0:
-    print("O valor nao pode ser zero nem negativo.")
-elif grauA+grauB <6:
-    print("Precisa fazer a prova de Grau C")
+if grauA >=0 and grauB >=0:
+    notaFinal= 0.33*grauA + 0.67*grauB
+    if notaFinal >=6:
+        print("Não precisa de Grau C")
+    else:
+        print("Precisa de Grau C")
 else:
-    print("Não precisa fazer a prova de Grau C.")
+    print("A nota não pode ser negativa.")
 
 #----------------------------------------------------------------------------------------------
 
