@@ -1,4 +1,4 @@
-# Exercicio 1
+# Exercício 1. Crie um programa que recebe um inteiro pelo teclado e imprime se ele é par ou ímpar.
 valor = int(input("Digite um valor para verificar se é positivo ou negativo:"))
 
 if valor >0:
@@ -10,7 +10,8 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 2
+#Exercício 2. Crie um programa que recebe dois valores inteiros pelo teclado e imprime qual dos dois é maior.
+
 valor1 = int(input("Digite o primeiro valor:"))
 valor2 = int(input("Digite o segundo valor:"))
 
@@ -23,7 +24,8 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 3
+#Exercício 3. Crie um programa que recebe dois valores inteiros A e B pelo teclado e imprime o valor de A dividido por B.
+# Entretanto, se o valor de B for 0, imprima uma mensagem de erro e não faça a divisão.
 A = int(input("Digite o valor de A:"))
 B = int(input("Digite o valor de B:"))
 
@@ -34,7 +36,7 @@ else:
     print("O valor B não pode ser 0, reinicie a operação!")
 
 #----------------------------------------------------------------------------------------------
-#Exercicio 4
+#Exercício 4. Crie um programa que recebe três valores inteiros pelo teclado e imprime qual dos três é menor.
 int1 = int(input("Digite o primeiro valor:"))
 int2 = int(input("Digite o segundo valor:"))
 int3 = int(input("Digite o terceiro valor:"))
@@ -50,7 +52,8 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 5
+#Exercício 5. Crie um programa que recebe o preço de um produto pelo teclado e imprime na tela a mensagem adequada, de acordo com o preço:
+
 preco = float(input("Digite o preço do produto ou serviço:"))
 
 if preco <=0:
@@ -64,7 +67,7 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 6
+#Exercício 6. Crie um programa que aplica uma taxa de juros em um determinado preço digitado pelo teclado. A taxa aplicada deve ser:
 jur = int(input("Digite o preço do produto:"))
 
 if jur !=0 and jur < 100:
@@ -79,7 +82,7 @@ elif jur >=300 and jur<=1000:
 else:
     print("O preço nao pode ser zero")
 
-#Exercicio 7
+#Exercício 7. Crie um programa que recebe um valor inteiro referente a um determinado ano. Imprima na tela se o ano informado é bissexto ou não.
 ano = int(input("Digite um ano(Ex: 2025):"))
 
 if (ano % 400 ==0) or (ano % 4==0 and ano % 100!=0):
@@ -94,7 +97,8 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 8
+#Exercício 8. Crie um programa que exibe um menu de calculadora na tela. O menu exibido deve ser o seguinte:
+
 print("Selecione a opção desejada na lista abaixo")
 print("Digite 1 para soma")
 print("Digite 2 para subtração")
@@ -140,7 +144,10 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 9
+#Exercício 9. Crie um programa que recebe a nota do Grau A e a nota do Grau B pelo
+#teclado e imprime na tela se será necessário ou não realizar o Grau C (considere o
+#sistema de avaliação da Unisinos). Caso algum valor informado seja negativo, informe
+#uma mensagem de erro e não realize o cálculo.
 grauA = float(input("Digite sua nota total do Grau A: "))
 grauB = float(input("Digite sua nota total do Grau B: "))
 
@@ -155,7 +162,7 @@ else:
 
 #----------------------------------------------------------------------------------------------
 
-#Exercicio 10
+#Exercício 10. Crie um programa que solicita que o usuário digite uma letra e imprime na tela se a letra é uma vogal ou uma consoante.
 letra = input("Digite uma letra para saber se é vogal ou consoante:")
 
 if letra.lower() in "aeiou":
