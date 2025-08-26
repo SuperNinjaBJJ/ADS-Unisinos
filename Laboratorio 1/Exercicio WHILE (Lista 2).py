@@ -11,7 +11,7 @@ while contador <10:
         print("O numero é positivo!")
     contador +=1
 
-# Exercício 2. Faça um programa que escreva na tela todos os números inteiros entre 0 (inclusive) e 1000 (inclusive).
+# Exercício 2. Faça um programa que escreva na tela todos os números inteiros entre 0 (inclusive) e 1000 (inclusive)..
 
 contador = 0
 
